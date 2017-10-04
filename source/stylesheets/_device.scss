@@ -1,0 +1,134 @@
+.canvas {
+    min-height: 568px;
+    min-width: 320px;
+    background: #fff;
+}
+
+
+.loading {
+    background: rgba(255, 255, 255, 0.9);
+
+    display: none;
+
+    position: absolute;
+    top: 0;
+    padding: 1em;
+    text-align: center;
+
+    left: 0;
+    right: 0;
+
+    // .animation {
+    //     width: 20%;
+    //     height: auto;
+    //     background: white;
+    // }
+    // p {
+    //     color: #fff;
+    //     font-size: 2em;
+    //     text-align: center;
+    //     &:first-child {
+    //         margin-top: 5em;
+    //     }
+    // }
+}
+
+.mockup {
+    max-height: 568px;
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+// @media all (max-device-width: 733px) {
+// }
+@media all and (min-width: 733px) {
+
+    .device {
+        margin: 0 auto;
+        position: relative;
+        background: #111;
+        box-shadow: 0px 0px 0px 2px #aaa;
+        padding: 100px 30px;
+        border-radius: 55px;
+    }
+
+    .device:after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        margin-left: -30px;
+        bottom: 20px;
+        border-radius: 100%;
+        box-sizing: border-box;
+        border: 5px solid #333;
+    }
+
+    .device:before {
+        content: '';
+        width: 60px;
+        height: 10px;
+        border-radius: 10px;
+        position: absolute;
+        left: 50%;
+        margin-left: -30px;
+        background: #333;
+        top: 50px;
+    }
+
+    .device-inner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .device>div {
+        max-width: 100%;
+        width: 320;
+        height: 568;
+        background: #fff;
+    }
+
+    .device-v {
+        padding: 100px 30px;
+    }
+
+    .device-v+.info {
+        margin-left: 424px;
+    }
+
+    .device-h {
+        max-width: 1024px;
+        padding: 30px 80px;
+        border-radius: 30px;
+    }
+
+    .device-h:after {
+        left: auto;
+        right: 10px;
+        bottom: auto;
+        top: 50%;
+        margin-left: 0;
+        margin-top: -30px;
+    }
+
+    .device-h:before {
+        width: 10px;
+        height: 60px;
+        top: 50%;
+        margin-left: auto;
+        margin-top: -30px;
+        left: 35px;
+    }
+
+    .device-left {
+        float: left;
+        margin: 0;
+        margin-right: 40px;
+    }
+}

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="device device-left device-v">
+        <div class="device-inner canvas">
+            <canvas id="canvas" class="mockup" height="568" width="320"></canvas>
+            <script>
+            $(document).ready(function() {
+                application().init({
+                    picture: 'images/06-dashboard02.png',
+                    areas: [{
+                        x: 0,
+                        y: 0,
+                        w: 350,
+                        h: 700,
+                        url: 'http://umfragen.ise.tu-darmstadt.de/sosci/junto/?password=test&mp=0&mc=0'
+                    }],
+                });
+            });
+            </script>
+        </div>
+    </div>
+</div>

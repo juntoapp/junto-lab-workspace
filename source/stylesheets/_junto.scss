@@ -1,0 +1,50 @@
+.junto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: start;
+    justify-content: stretch;
+    min-width: 320px;
+
+
+
+    .junto__headerbar {
+        background: url('../images/headerbar.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 568px;
+        max-width: 320px;
+        width: 320px;
+        height: 55.5px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .junto__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        #name {
+            font-weight: bold;
+            font-size: 1.2em;
+            max-width: 300px;
+        }
+
+        input {
+            font-size: 1em;
+            padding: 0.3em;
+            margin: 0.3em;
+            width: 80%;
+            max-width: 300px;
+            border: 0;
+            border-bottom: 2px #ccc solid;
+        }
+
+        p {
+            text-align: center;
+            max-width: 300px;
+        }
+    }
+}

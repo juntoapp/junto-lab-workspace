@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+}
+
+
+
+body {
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+    background: #ccc;
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
